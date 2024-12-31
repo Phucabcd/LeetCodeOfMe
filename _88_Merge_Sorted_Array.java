@@ -37,13 +37,13 @@ public class _88_Merge_Sorted_Array {
                 nums1[k] = nums1[i];
                 i--;
             } else if (i < 0) {
-                nums2[k] = nums2[j];
+                nums1[k] = nums2[j];
                 j--;
             } else if (nums1[i] > nums2[j]) {
                 nums1[k] = nums1[i];
                 i--;
             } else {
-                nums2[k] = nums2[j];
+                nums1[k] = nums2[j];
                 j--;
             }
         }
