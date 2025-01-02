@@ -15,13 +15,6 @@ public class _1672_Richest_Customer_Wealth {
             }
         }
         
-        // for (int k3 = 0; k3 < i; k3++) {
-        //     System.out.println("Total: " + k3 + " : " + result[k3]);
-        //     if (result[k3] > max) {
-        //         max = result[k3];
-        //     }
-        // }
-        
         return max;
     }
 
