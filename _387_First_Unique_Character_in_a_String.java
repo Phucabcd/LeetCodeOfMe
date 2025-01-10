@@ -1,4 +1,3 @@
-import java.util.HashMap;
 
 public class _387_First_Unique_Character_in_a_String {
     public int firstUniqChar(String s) {
