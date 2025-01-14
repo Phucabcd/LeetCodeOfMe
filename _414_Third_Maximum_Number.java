@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class _414_Third_Maximum_Number {
     public int thirdMax(int[] nums) {
