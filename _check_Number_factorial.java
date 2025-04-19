@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class _check_Number_factorial {
     // Người Ai Cập không hề thích con số 0, 
@@ -23,11 +22,11 @@ public class _check_Number_factorial {
       return fact % 10;
     }
   
-  public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        System.out.println(check(n));  
-    }
+  // public static void main(String[] args) {
+  //       Scanner sc = new Scanner(System.in);
+  //       int n = sc.nextInt();
+  //       System.out.println(check(n));  
+  //   }
 
     
 }

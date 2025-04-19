@@ -6,10 +6,10 @@ public class _232_Implement_Queue_using_Stacks {
 
     // time complexity 
    
-    public MyQueue() {
-        stack1 = new Stack<>();
-        stack2 = new Stack<>();
-    }
+    // public MyQueue() {
+    //     stack1 = new Stack<>();
+    //     stack2 = new Stack<>();
+    // }
     
     // O(1)
     public void push(int x) {
