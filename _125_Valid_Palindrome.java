@@ -18,5 +18,28 @@ public class _125_Valid_Palindrome {
     // }
 
     //solution 2: StringBuilder
-    //edit....
+    // better performance than solution 1  
+    public boolean isPalindrome(String s) {
+        if(s == null) return true;
+        
+        StringBuilder sb = new StringBuilder();
+
+        for(char c : s.toCharArray()){
+            if(Character.isLetterOrDigit(c)){
+                sb.append(Character.toLowerCase(c));
+            }
+        }
+
+        s = sb.toString();
+        int left = 0, right = s.length() - 1;
+
+        while(left < right){
+            if(s.charAt(left) != s.charAt(right)){
+                return false;
+            }    
+            left++;
+            right--;
+        }
+        return true;
+    }
 }
