@@ -24,3 +24,7 @@ public class _112_Path_Sum {
     // }
 }
 
+/**explanation targetSum - root.val 
+ * if you have Sum = 20 and you are at root 4. You will get Sum 20 reduce root now 4, you get 16 and continue.
+*/
+
